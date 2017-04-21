@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-blyss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^6.10.3",
+    "eslint-plugin-standard": "^3.0.1",
+    "standard": "^10.0.2",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
+  },
+  "scripts": {
+    "test": "tape test/index.js | tap-spec"
+  }
+}
