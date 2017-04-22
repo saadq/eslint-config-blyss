@@ -3,6 +3,11 @@
   "rules": {
     "generator-star-spacing": ["error", { "before": true, "after": false }],
     "object-curly-spacing": ["error", "always"],
-    "space-before-function-paren": ["error", "never"]
+    "space-before-function-paren": ["error", "never"],
+    "no-var": "error",
+    "arrow-parens": [2, "as-needed", { "requireForBlockBody": true }],
+    "prefer-const": "error",
+    "prefer-arrow-callback": "error",
+    "prefer-template": "error"
   }
 }
