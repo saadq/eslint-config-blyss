@@ -11,7 +11,7 @@
     "prefer-template": "error",
     "func-style": ["error", "declaration"],
     "newline-after-var": ["error", "always"],
-    "newline-before-return": "always",
+    "newline-before-return": "error",
     "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 2 }]
   }
 }
