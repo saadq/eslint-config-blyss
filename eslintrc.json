@@ -1,5 +1,5 @@
 {
-  "extends": "standard",
+  "extends": ["standard", "standard-flow"],
   "rules": {
     "generator-star-spacing": ["error", { "before": true, "after": false }],
     "object-curly-spacing": ["error", "always"],
