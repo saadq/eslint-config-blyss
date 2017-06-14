@@ -1,0 +1,30 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["standard"],
+  "plugins": ["flowtype", "import"],
+  "rules": {
+    "generator-star-spacing": ["error", { "before": true, "after": false }],
+    "object-curly-spacing": ["error", "always"],
+    "space-before-function-paren": ["error", "never"],
+    "no-var": "error",
+    "prefer-const": "error",
+    "prefer-arrow-callback": "error",
+    "func-style": ["error", "declaration"],
+    "jsx-quotes": ["error", "prefer-double"],
+    "no-duplicate-imports": 0,
+    "import/no-duplicates": "error",
+    "flowtype/define-flow-type": "error",
+    "flowtype/delimiter-dangle": ["error", "never"],
+    "flowtype/generic-spacing": ["error", "never"],
+    "flowtype/no-dupe-keys": ["error", "never"],
+    "flowtype/no-primitive-constructor-types": ["error", "never"],
+    "flowtype/no-types-missing-file-annotation": "error",
+    "flowtype/object-type-delimiter": ["error", "comma"],
+    "flowtype/semi": ["error", "never"],
+    "flowtype/space-before-type-colon": ["error", "never"],
+    "flowtype/space-after-type-colon": ["error", "always"],
+    "flowtype/space-before-generic-bracket": ["error", "never"],
+    "flowtype/union-intersection-spacing": ["error", "always"],
+    "flowtype/use-flow-type": "error"
+  }
+}

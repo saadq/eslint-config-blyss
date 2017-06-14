@@ -3,7 +3,7 @@ var test = require('tape')
 var path = require('path')
 
 var linter = new eslint.CLIEngine({
-  configFile: path.join(__dirname, '..', 'eslintrc.json')
+  configFile: path.join(__dirname, '..', '.eslintrc.json')
 })
 
 test('it should throw an error on space before function parens.', function(t) {
