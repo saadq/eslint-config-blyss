@@ -13,6 +13,7 @@
     "jsx-quotes": ["error", "prefer-double"],
     "no-duplicate-imports": 0,
     "import/no-duplicates": "error",
+    "lines-around-comment": ["error", { "afterBlockComment": true }],
     "flowtype/define-flow-type": "error",
     "flowtype/delimiter-dangle": ["error", "never"],
     "flowtype/generic-spacing": ["error", "never"],
