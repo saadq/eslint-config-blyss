@@ -1,7 +1,16 @@
 {
   "parser": "babel-eslint",
-  "extends": ["standard"],
-  "plugins": ["flowtype", "import"],
+
+  "extends": [
+    "standard",
+    "standard-jsx"
+  ],
+
+  "plugins": [
+    "flowtype",
+    "import"
+  ],
+
   "rules": {
     "generator-star-spacing": ["error", { "before": true, "after": false }],
     "object-curly-spacing": ["error", "always"],
@@ -10,10 +19,12 @@
     "prefer-const": "error",
     "prefer-arrow-callback": "error",
     "func-style": ["error", "declaration"],
-    "jsx-quotes": ["error", "prefer-double"],
     "no-duplicate-imports": 0,
-    "import/no-duplicates": "error",
     "lines-around-comment": ["error", { "afterBlockComment": true }],
+    "jsx-quotes": ["error", "prefer-double"],
+
+    "import/no-duplicates": 2,
+
     "flowtype/define-flow-type": "error",
     "flowtype/delimiter-dangle": ["error", "never"],
     "flowtype/generic-spacing": ["error", "never"],

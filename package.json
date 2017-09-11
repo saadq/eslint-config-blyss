@@ -4,21 +4,22 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "babel-eslint": "^7.2.3",
     "eslint": "^3.19.0",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-flowtype": "^2.34.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-node": "^4.2.2",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-react": "^6.10.3",
-    "eslint-plugin-standard": "^3.0.1",
-    "standard": "^10.0.2",
     "tap-spec": "^4.1.1",
     "tape": "^4.6.3"
   },
+  "peerDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-jsx": "^4.0.2",
+    "eslint-plugin-flowtype": "^2.35.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.3.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
   "scripts": {
-    "test": "tape test/index.js | tap-spec",
-    "yo": "eslint yo.js"
+    "test": "tape test/index.js | tap-spec"
   }
 }
