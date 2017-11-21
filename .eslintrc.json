@@ -37,6 +37,8 @@
     "flowtype/space-after-type-colon": ["error", "always"],
     "flowtype/space-before-generic-bracket": ["error", "never"],
     "flowtype/union-intersection-spacing": ["error", "always"],
-    "flowtype/use-flow-type": "error"
+    "flowtype/use-flow-type": "error",
+
+    "standard/computed-property-even-spacing": "off"
   }
 }
