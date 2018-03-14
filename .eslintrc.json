@@ -136,7 +136,6 @@
     "no-with": "error",
     "one-var": ["error", { "initialized": "never" }],
     "prefer-arrow-callback": "error",
-    "prefer-const": "error",
     "prefer-promise-reject-errors": "error",
     "symbol-description": "error",
     "unicode-bom": ["error", "never"],
