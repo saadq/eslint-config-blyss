@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-blyss",
-  "version": "11.0.0",
+  "version": "11.0.1",
   "description": "An eslint config that leaves style rules to be handled by Prettier.",
   "author": {
     "name": "Saad Quadri",
