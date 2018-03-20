@@ -16,7 +16,7 @@
     "jest": true
   },
 
-  "plugins": ["import", "node", "react", "flowtype"],
+  "plugins": ["import", "node", "react", "flowtype", "prefer-let"],
 
   "globals": {
     "document": false,
@@ -165,6 +165,8 @@
     "flowtype/no-primitive-constructor-types": "error",
     "flowtype/no-types-missing-file-annotation": "error",
     "flowtype/object-type-delimiter": ["error", "comma"],
-    "flowtype/use-flow-type": "error"
+    "flowtype/use-flow-type": "error",
+
+    "prefer-let/prefer-let": "error"
   }
 }
