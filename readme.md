@@ -1,5 +1,9 @@
 # eslint-config-blyss
 
+---
+**DEPRECATED** – Use [`lynt`](https://github.com/saadq/lynt).
+---
+
 ESLint sharable config for [blyss](https://github.com/saadq/blyss). Let ESLint handle the errors, and leave stylistic rules up to [Prettier](https://github.com/prettier/prettier).
 
 ## Installation
